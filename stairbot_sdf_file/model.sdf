@@ -1,0 +1,398 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="stairbot">
+		<link name="link_BogieLeft">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.18194899999999994 -0.19817088501537544 0.2165 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>3.920183302812308</mass>
+				<inertia>
+					<ixx>0.3437134229722694</ixx>
+					<ixy>-0.14135002723050621</ixy>
+					<ixz>0.1544236979767753</ixz>
+					<iyy>0.3523377166612942</iyy>
+					<iyz>0.16819153111808594</iyz>
+					<izz>0.3278440027336147</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_BogieLeft_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_BogieLeft.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_BogieLeft_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_BogieLeft.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelL2">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.028740204198052594 -0.2525773415442297 0.28072295564612065 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.9313939906854</mass>
+				<inertia>
+					<ixx>5.2945383863462165</ixx>
+					<ixy>-0.2608304578324393</ixy>
+					<ixz>0.2898957467715598</ixz>
+					<iyy>3.0319631512458227</iyy>
+					<iyz>2.5476888243369586</iyz>
+					<izz>2.608785716813732</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelL2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelL2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelL1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.3351577958019488 -0.2525773415441829 0.28072295564612065 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.93139399068536</mass>
+				<inertia>
+					<ixx>5.29453838637414</ixx>
+					<ixy>-3.041709819521394</ixy>
+					<ixz>3.380658635226414</ixz>
+					<iyy>7.0384842103859935</iyy>
+					<iyz>2.547688824336482</iyz>
+					<izz>6.615306775981836</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelL1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelL1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelL3">
+			<self_collide>false</self_collide>
+			<pose frame="">0.30245420419810576 -0.2525773415442754 0.28072295564612065 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.931393990685336</mass>
+				<inertia>
+					<ixx>5.2945383863509505</ixx>
+					<ixy>2.744909813796213</ixy>
+					<ixz>-3.0507851226801623</ixz>
+					<iyy>6.289235508600166</iyy>
+					<iyz>2.5476888243374143</iyz>
+					<izz>5.86605807417282</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelL3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelL3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelL3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_BogieRight">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.18194881435621743 -0.19817088501537544 -0.21650000000000003 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>3.9201833028123048</mass>
+				<inertia>
+					<ixx>0.34371342297226914</ixx>
+					<ixy>-0.14134988301012716</ixy>
+					<ixz>-0.15442354041724252</ixz>
+					<iyy>0.35233745183187326</iyy>
+					<iyz>-0.1681915311180858</iyz>
+					<izz>0.32784373790419374</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_BogieRight_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_BogieRight.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_BogieRight_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_BogieRight.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelR2">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.02874001855427003 -0.2525773415442298 -0.2807229556461206 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.9313939906854</mass>
+				<inertia>
+					<ixx>5.2945383863462165</ixx>
+					<ixy>-0.2608287730304642</ixy>
+					<ixz>-0.28989387422595747</ixz>
+					<iyy>3.031962767827452</iyy>
+					<iyz>-2.5476888243369586</iyz>
+					<izz>2.6087853333953612</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelR2_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelR2_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR2.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelR1">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.33515761015816625 -0.2525773415441829 -0.28072295564612065 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.93139399068536</mass>
+				<inertia>
+					<ixx>5.29453838637414</ixx>
+					<ixy>-3.0417081347194186</ixy>
+					<ixz>-3.380656762680811</ixz>
+					<iyy>7.03847973908737</iyy>
+					<iyz>-2.547688824336482</iyz>
+					<izz>6.61530230468321</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelR1_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelR1_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR1.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_WheelR3">
+			<self_collide>false</self_collide>
+			<pose frame="">0.30245420419810576 -0.2525773415442754 -0.28072295564612065 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>35.931393990685336</mass>
+				<inertia>
+					<ixx>5.294538386350951</ixx>
+					<ixy>2.744909813796213</ixy>
+					<ixz>3.0507851226801628</ixz>
+					<iyy>6.289235508600166</iyy>
+					<iyz>-2.547688824337415</iyz>
+					<izz>5.86605807417282</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_WheelR3_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_WheelR3_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_WheelR3.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Core">
+			<self_collide>false</self_collide>
+			<pose frame="">0.0041476719439908554 -0.005490555701546921 -1.4056889447407222e-18 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>202.19060224341712</mass>
+				<inertia>
+					<ixx>3.493868134283269</ixx>
+					<ixy>0.17520763168096998</ixy>
+					<ixz>2.7966962079517544e-15</ixz>
+					<iyy>9.20647439564586</iyy>
+					<iyz>3.637978807091713e-16</iyz>
+					<izz>6.381046423613928</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_Core_collision">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_Core.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_Core_visual">
+				<geometry>
+					<mesh>
+						<uri>model://stairbot/meshes/CAD/link_Core.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint_BogieLeft" type="revolute">
+			<parent>link_Core</parent>
+			<child>link_BogieLeft</child>
+			<pose frame="">9.282189122217233e-08 0.07415106540850058 -0.016499999999999952 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_BogieRight" type="revolute">
+			<parent>link_Core</parent>
+			<child>link_BogieRight</child>
+			<pose frame="">-9.28218912932266e-08 0.07415106540850058 0.01650000000000002 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelL1" type="revolute">
+			<parent>link_BogieLeft</parent>
+			<child>link_WheelL1</child>
+			<pose frame="">4.447997525858227e-14 1.0658141036401502e-16 -0.06422295564612064 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelL2" type="revolute">
+			<parent>link_BogieLeft</parent>
+			<child>link_WheelL2</child>
+			<pose frame="">-4.3089976031751576e-14 4.6966874833742625e-14 -0.047722955646120654 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelL3" type="revolute">
+			<parent>link_Core</parent>
+			<child>link_WheelL3</child>
+			<pose frame="">-1.0054179711005418e-14 9.261924560632906e-14 -0.047722955646120654 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelR2" type="revolute">
+			<parent>link_BogieRight</parent>
+			<child>link_WheelR2</child>
+			<pose frame="">-4.3067771571259074e-14 4.700240197053063e-14 0.0642229556461206 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelR3" type="revolute">
+			<parent>link_Core</parent>
+			<child>link_WheelR3</child>
+			<pose frame="">-1.0054179711005418e-14 9.261924560632906e-14 0.06422295564612067 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_WheelR1" type="revolute">
+			<parent>link_BogieRight</parent>
+			<child>link_WheelR1</child>
+			<pose frame="">4.447997525858227e-14 1.0658141036401502e-16 0.06422295564612064 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 -1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>0.0</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin"/>
+	</model>
+</sdf>
