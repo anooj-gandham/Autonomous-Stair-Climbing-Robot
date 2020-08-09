@@ -1,0 +1,59 @@
+Body: link_BogieLeft
+COM: link_BogieLeft -18.194899999999993 -19.817088501537544 21.65
+exporting stl of link_BogieLeft
+Body: link_WheelL2
+COM: link_WheelL2 -2.8740204198052592 -25.257734154422973 28.072295564612066
+exporting stl of link_WheelL2
+Body: link_WheelL1
+COM: link_WheelL1 -33.51577958019488 -25.257734154418287 28.072295564612066
+exporting stl of link_WheelL1
+Body: link_WheelL3
+COM: link_WheelL3 30.245420419810575 -25.25773415442754 28.072295564612066
+exporting stl of link_WheelL3
+Body: link_BogieRight
+COM: link_BogieRight -18.194881435621742 -19.817088501537544 -21.650000000000002
+exporting stl of link_BogieRight
+Body: link_WheelR2
+COM: link_WheelR2 -2.874001855427003 -25.257734154422977 -28.07229556461206
+exporting stl of link_WheelR2
+Body: link_WheelR1
+COM: link_WheelR1 -33.51576101581662 -25.257734154418287 -28.072295564612062
+exporting stl of link_WheelR1
+Body: link_WheelR3
+COM: link_WheelR3 30.245420419810575 -25.25773415442754 -28.072295564612066
+exporting stl of link_WheelR3
+Body: link_Core
+COM: link_Core 0.41476719439908555 -0.5490555701546921 -1.4056889447407221e-16
+exporting stl of link_Core
+Joint: EXPORT_joint_BogieLeft
+	parent: link_Core
+	child: link_BogieLeft
+	pos: 9.282189122217233e-06	7.415106540850058	-1.649999999999995
+Joint: EXPORT_joint_BogieRight
+	parent: link_Core
+	child: link_BogieRight
+	pos: -9.28218912932266e-06	7.415106540850058	1.6500000000000021
+Joint: EXPORT_joint_WheelL1
+	parent: link_BogieLeft
+	child: link_WheelL1
+	pos: 4.447997525858227e-12	1.0658141036401503e-14	-6.422295564612064
+Joint: EXPORT_joint_WheelL2
+	parent: link_BogieLeft
+	child: link_WheelL2
+	pos: -4.3089976031751576e-12	4.696687483374262e-12	-4.772295564612065
+Joint: EXPORT_joint_WheelL3
+	parent: link_Core
+	child: link_WheelL3
+	pos: -1.0054179711005418e-12	9.261924560632906e-12	-4.772295564612065
+Joint: EXPORT_joint_WheelR2
+	parent: link_BogieRight
+	child: link_WheelR2
+	pos: -4.306777157125907e-12	4.700240197053063e-12	6.42229556461206
+Joint: EXPORT_joint_WheelR3
+	parent: link_Core
+	child: link_WheelR3
+	pos: -1.0054179711005418e-12	9.261924560632906e-12	6.422295564612067
+Joint: EXPORT_joint_WheelR1
+	parent: link_BogieRight
+	child: link_WheelR1
+	pos: 4.447997525858227e-12	1.0658141036401503e-14	6.422295564612064
